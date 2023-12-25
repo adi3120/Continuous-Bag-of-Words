@@ -51,10 +51,6 @@ def vocabulary_prepare(corpus):
   vocabulary=list(set(corpus_tokenise(corpus)))
   return vocabulary
 
-def countOccurrences(str, word):
-
-    wordslist = list(str.split())
-    return wordslist.count(word)
 
 def co_matrix_prepare(corpus,vocabulary,window_size):
   matrix={}
